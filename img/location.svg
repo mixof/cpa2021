@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.517" height="21.243" viewBox="0 0 17.517 21.243">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Union_2" d="M7.97 20.468L4.719 16.3A8.614 8.614 0 0 1 8.544 0 8.614 8.614 0 0 1 12.6 16.173l-3.074 4.3a.966.966 0 0 1-1.56 0z" class="cls-1" transform="translate(515 1941)"/>
+        </clipPath>
+        <pattern id="pattern" width="1" height="1" viewBox="47.814 67.313 265.296 226.297"/>
+        <filter id="Path_1737" width="887.98" height="325.868" x="-392.905" y="-224.492" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-1{fill:transparent;stroke:#041f3d;stroke-width:2px}.cls-9{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_516" transform="translate(-515 -1959.621)">
+        <g id="Mask_Group_16" clip-path="url(#clip-path)" transform="translate(0.43 19)">
+            <g id="Group_515" transform="translate(130.665 1722.129)">
+                <g filter="url(#Path_1737)" transform="matrix(1, 0, 0, 1, 383.91, 218.49)">
+                    <path id="Path_1737-2" fill="#fff" d="M0 0h869.98v307.868H0z" transform="translate(-383.91 -218.49)"/>
+                </g>
+                <path id="Image" fill="url(#pattern)" d="M0 0H360.924V307.868H0z"/>
+                <text id="Money_Smart_Living" fill="#041f3d" font-family="Spartan-ExtraBold, Spartan" font-size="18px" font-weight="800" transform="translate(384.335 27.595)">
+                    <tspan x="0" y="15">Money Smart Living</tspan>
+                </text>
+                <text id="Join_keynote_speaker_Kelley_Keehn_for_a_presentation_on_Money_Smart_Living_and_celebrate_with_your_payroll_colleagues_as_we_explore_how_payroll_contributes_to_today_s_theme:_Health_Financial_Wellness._Earn_1.5_CPE_hours_as_a_certified_payroll_profess" fill="#4d4d4d" font-family="Spartan-Medium, Spartan" font-size="15px" font-weight="500" transform="translate(384.335 58.222)">
+                    <tspan x="0" y="13">Join keynote speaker Kelley Keehn for a presentation on </tspan><tspan x="0" y="35">‘Money Smart Living’ and celebrate with your payroll </tspan><tspan x="0" y="57">colleagues as we explore how payroll contributes to </tspan><tspan x="0" y="79">today’s theme: ‘Health &amp; Financial Wellness.’ Earn 1.5 CPE </tspan><tspan x="0" y="101">hours as a certified payroll professional.</tspan>
+                </text>
+                <ellipse id="Ellipse_69" cx="11.706" cy="11.256" fill="#3dffc0" rx="11.706" ry="11.256" transform="translate(372.629 213.129)"/>
+            </g>
+        </g>
+        <g id="Group_514" transform="translate(0 17.621)">
+            <g id="Union_1" fill="rgba(255,255,255,0)">
+                <path d="M8.97 20.239l-.003-.004-.01-.013-3.333-4.247-.138-.177-.2-.1c-1.269-.636-2.34-1.608-3.097-2.81C1.411 11.653 1 10.226 1 8.758 1 4.482 4.48 1 8.759 1c4.278 0 7.758 3.48 7.758 7.759 0 2.852-1.56 5.469-4.072 6.828l-.202.109-.134.186-3.14 4.357z" class="cls-9" transform="translate(515 1942)"/>
+                <path fill="#041f3d" d="M8.936 18.575l2.362-3.278.268-.372.403-.218c2.188-1.184 3.548-3.463 3.548-5.948C15.517 5.032 12.485 2 8.759 2 5.032 2 2 5.032 2 8.759c0 1.278.358 2.521 1.035 3.596.66 1.048 1.594 1.895 2.699 2.45l.4.2.277.352 2.525 3.218m.034 2.668c-.3 0-.6-.134-.8-.403l-3.333-4.248C1.97 15.153 0 12.186 0 8.759 0 3.92 3.921 0 8.759 0c4.836 0 8.758 3.921 8.758 8.759 0 3.33-1.86 6.226-4.596 7.707L9.77 20.84c-.2.269-.5.403-.8.403z" transform="translate(515 1942)"/>
+            </g>
+            <g id="Ellipse_68" class="cls-1" transform="translate(520 1947)">
+                <circle cx="4" cy="4" r="4" class="cls-9"/>
+                <circle cx="4" cy="4" r="3" fill="none"/>
+            </g>
+        </g>
+    </g>
+</svg>

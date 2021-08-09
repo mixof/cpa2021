@@ -1,0 +1,114 @@
+footer
+  min-height: 243px
+  background-color: $cpa_blue
+  padding-top: 33px
+  padding-bottom: 20px
+.footer-menu
+    list-style: none
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    padding: 0
+    padding-top: 33px
+    .menu-item
+      color: $cpa_gold
+      padding: 0 12px
+      position: relative
+      text-align: center
+      &:first-child
+        max-width: 210px
+      &:not(:last-child)
+        &:after
+          position: absolute!important
+          content: ''
+          height: 20px
+          width: 2px
+          right: 0
+          top: 5px
+          background-color: $cpa_gold
+          display: block
+        //&:not(:last-child)
+        //border-right: 2px solid $cpa_gold
+      a
+        color: $cpa_gold
+        text-decoration: none
+        font-family: 'Poppins', sans-serif
+        font-weight: bold
+        font-size: 14px
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        text-align: center
+        &:hover
+          text-decoration: underline
+.online-block
+  font-family: 'Poppins', sans-serif
+  color: $cpa_white
+  font-size: 1rem
+  font-weight: bold
+  font-stretch: normal
+  font-style: normal
+  line-height: 0.75
+  letter-spacing: normal
+  text-align: left!important
+  color: #3dffc0
+  text-transform: uppercase
+
+
+p.um-online-none
+  font-size: 0.87rem
+  font-weight: normal
+  font-stretch: normal
+  font-style: normal
+  line-height: 1.43
+  letter-spacing: normal
+  text-align: left
+  color: $cpa_white
+  text-align: left!important
+
+
+.sharing-block
+  padding-top: 52px
+  ul
+    padding: 0
+    list-style: none
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    li
+      &:not(:last-child)
+        padding-right: 30px
+
+.footer-copyright
+  display: block
+  color: $cpa_white
+  font-family: 'Poppins', sans-serif
+  font-size: 14px
+  font-weight: 500
+  text-align: center
+  padding-top: 10px
+
+.footer-logo-wrap
+  .white_logo
+    width: 160px
+
+.um-field-checkbox-option
+  font-family: 'Poppins', sans-serif!important
+  font-size: 1.25rem!important
+  font-weight: normal!important
+  font-stretch: normal!important
+  font-style: normal!important
+  line-height: normal!important
+  letter-spacing: normal!important
+  text-align: left!important
+  color: #041f3d!important
+
+.um-field-checkbox-state, .um-field-radio-state
+  i
+    font-size: 1.72rem!important
+
+
+.um-modal-btn, .um input[type=submit].um-button, .um a.um-button, .um-button

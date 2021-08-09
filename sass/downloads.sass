@@ -1,0 +1,122 @@
+.downloads-block
+  padding-top: 60px
+  z-index: 2
+  position: relative
+  .controls-wrap
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    padding-top: 50px
+.download-item
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16)
+  background-color: $cpa_grey
+  height: 100%
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  .download-image
+    img
+      width: 100%
+      height: auto
+      max-height: 224px
+      object-fit: cover
+  .download-content
+    background-color: $cpa_grey
+    padding-top: 46px
+    padding-left: 30px
+    padding-right: 30px
+    flex: 1
+    .download-text
+      font-family: 'Spartan', sans-serif
+      font-size: 0.87rem
+      font-weight: 500
+      line-height: 1.57
+      text-align: left
+      color: $cpa_grey_text
+      padding-top: 12px
+    .download-tag
+      font-family: 'Spartan', sans-serif
+      font-size: 0.87rem
+      font-weight: bold
+      text-align: left
+      color: $cpa_blue
+      padding-top: 12px
+      text-decoration: none
+  .download-controls
+    padding-bottom: 32px
+    padding-left: 30px
+    padding-right: 30px
+    padding-top: 50px
+    display: flex
+    align-items: center
+    flex-direction: row
+    justify-content: space-between
+    .social-controls
+      display: flex
+      flex-direction: row
+      justify-content: center
+      align-items: center
+      .download-action
+        display: flex
+        i
+          width: 30px
+          height: 30px
+          background-size: contain
+    .download-action
+      max-height: 40px
+      &:not(:last-child)
+        padding-right: 12px
+    .download-actions
+      display: flex
+      flex-direction: row
+      .download-link
+        margin-right: 6px
+        span
+          font-size: 0.7rem
+
+
+
+.downloads-archive
+  .download-item-wrap
+    margin-bottom: 80px
+  .download-item
+    background-color: $cpa_white
+    .download-content
+      background-color: $cpa_white
+
+  .block-wrap
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 100%
+    padding-top: 0!important
+    .block-content
+      height: inherit
+
+.download-preview
+  .grab-to-pan-grab *:not(input):not(textarea):not(button):not(select):not(:link)
+    background-color: $cpa_white
+  .pdfemb-pagescontainer
+    background-color: $cpa_white
+  div.pdfemb-viewer
+    background-color: $cpa_white
+    border: none
+
+
+
+
+
+.download-single
+  background-color: $cpa_white
+  .download-preview
+    img
+      min-height: 512px
+  .download-content
+    background-color: $cpa_white
+  .download-controls
+    background-color: $cpa_white
+    justify-content: flex-start
+    .social-controls
+      padding-left: 15px
+

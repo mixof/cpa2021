@@ -1,0 +1,91 @@
+@import 'fonts'
+@import 'colors'
+@import "header"
+@import "footer"
+@import "icons"
+@import "banners"
+@import "titles"
+@import "blocks"
+@import "buttons"
+@import "leaderboard"
+@import "downloads"
+@import "winners"
+@import "forum"
+@import "profile"
+@import "events"
+@import "points"
+@import "tellstory"
+@import "textpages"
+@import "fixes"
+
+html
+  font-size: 16px
+  font-family: 'Poppins',sans-serif
+
+h1,h2,h3,h4,h5,h6
+  font-family: 'Poppins',sans-serif
+  font-weight: bold
+p
+  font-family: 'Spartan',sans-serif
+  font-weight: 500
+
+section
+  padding-top: 4.56rem
+  position: relative
+  z-index: 2
+  margin: 0
+
+body
+  section
+    margin: 0
+
+.top-section
+  padding-top: 0
+
+.no-paddings
+  padding: 0!important
+
+body
+  background-color: $cpa_white
+
+.container
+  max-width: 1200px
+
+.page-wrap
+  position: relative
+  overflow: hidden
+  padding-bottom: 128px
+
+body.single
+  .page-wrap
+    background-color: $cpa_grey
+    padding-bottom: 0
+  .section-wrap
+    padding-top: 0
+
+.section-content
+  padding-top: 4.56rem
+
+
+h1, h2, h3, h4, h5, h6
+  margin-top: 0
+
+
+@import 'responsive/header-responsive'
+@import 'responsive/footer-responsive'
+@import 'responsive/blocks-responsive'
+@import 'responsive/banners-responsive'
+@import 'responsive/buttons-responsive'
+@import 'responsive/downloads-responsive'
+@import 'responsive/icons-responsive'
+@import 'responsive/leaderboard-responsive'
+@import 'responsive/winners-responsive'
+@import 'responsive/titles-responsive'
+@import 'responsive/main-responsive'
+@import 'responsive/forum-responsive'
+@import 'responsive/profile-responsive'
+@import 'responsive/events-responsive'
+@import 'responsive/points-responsive'
+@import "responsive/tellstory-responsive"
+@import "responsive/textpages-responsive"
+@import 'responsive/fixes-responsive'

@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px)
+  .points-grid
+    margin: 70px 0
+    margin-top: 0
+    table
+      th
+        font-size: 1.2rem
+      tr
+        td
+          padding: 15px
+      .table-text
+        font-size: 1rem
+      .table-subtext
+        font-size: 1rem
+
+@media screen and (max-width: 572px)
+  .points-grid.badges
+    table
+      td
+        &:nth-child(odd)
+          background-color: $cpa_white
+        &:nth-child(even)
+          background-color: #fff8ec
+      tr
+        background-color: transparent!important
+        td
+          display: flex
+          width: 100%
+          border-left: 0!important
+          border-right: 0!important
+        &:first-child
+          td
+            &:first-child
+              border-top-left-radius: 30px
+              border-top-right-radius: 30px
+            &:last-child
+              border-radius: unset
+        &:last-child
+          td
+            &:first-child
+              border-bottom-right-radius: 30px
+            &:last-child
+              display: none

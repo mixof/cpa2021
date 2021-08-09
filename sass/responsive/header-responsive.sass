@@ -1,0 +1,92 @@
+@media screen and (max-width: 992px)
+  .search-form
+    position: absolute
+    top: 9px
+    left: 28px
+    .search-field
+      background-color: $cpa_white
+      color: $cpa_black
+      &::placeholder
+        color: $cpa_black
+    .search_icon
+      //background-color: $cpa_blue
+    &.closed
+      .search-field
+        transition: all 120ms ease-in
+        width: 40px
+    &.opened
+      .search-field
+        transition: all 320ms ease-in
+        width: 220px
+        max-width: 100%
+
+
+
+@media screen and (max-width: 768px)
+  ul.main-menu
+    flex-direction: column
+    .nav-item
+      .nav_link
+        padding-left: 0!important
+  .search-form
+    left: 94px
+    &.closed
+      .search-field
+        transition: all 120ms ease-in
+        width: 40px
+    &.opened
+      .search-field
+        transition: all 320ms ease-in
+        width: 220px
+        max-width: 100%
+  .header-main
+    padding-top: 14px
+  .header-menu
+    position: inherit
+    justify-content: space-between
+    .site-img-logo
+      width: 120px
+    .white-overlay
+      left: 0
+    ul.main-menu
+      flex-direction: column
+      opacity: 0
+      width: 100%
+      text-align: center
+      display: none
+      top: 60px
+      transition: opacity 520ms ease-in
+      &.active
+        display: flex
+        opacity: 1
+        transition: opacity 320ms ease-in
+
+    .hamburger
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      &.active
+        position: absolute
+        top: 0
+        right: 30px
+      &:not(.is-active)
+        .hamburger-inner,.hamburger-inner::before,.hamburger-inner::after
+          background-color: $cpa_white
+    .main-menu
+      flex-direction: column
+      position: absolute
+      left: 0
+      .nav-item
+        padding-right: 0
+
+@media screen and (max-width: 375px)
+  .header-controls
+    #menu-loginenroll,#menu-loginenroll-french
+      flex-direction: column
+      li:not(:last-child)
+        margin-right: 0
+      .login-btn
+        margin-bottom: 10px
+
+

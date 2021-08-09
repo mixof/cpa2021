@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="toocht60wa">
+            <circle cx="7" cy="7" r="7" fill="#fff" transform="translate(952 1731)"/>
+        </clipPath>
+    </defs>
+    <g>
+        <g clip-path="url(#toocht60wa)" transform="translate(-947 -1725)">
+            <circle cx="12" cy="12" r="12" fill="#3dffc0" transform="translate(938 1720)"/>
+        </g>
+        <g>
+            <path fill="none" d="M0 0h24v24H0z" transform="translate(-947 -1725) translate(947 1725)"/>
+            <path fill="#041f3d" d="M22 5.72l-4.6-3.86-1.29 1.53 4.6 3.86zM7.88 3.39L6.6 1.86 2 5.71l1.29 1.53 4.59-3.85zM12 4a9 9 0 1 0 9 9 9 9 0 0 0-9-9zm0 16a7 7 0 1 1 7-7 6.995 6.995 0 0 1-7 7z" transform="translate(-947 -1725) translate(947 1725) translate(0 0)"/>
+            <path fill="none" stroke="#041f3d" stroke-width="2px" d="M12.287 8.3v6.02h3.659" transform="translate(-947 -1725) translate(947 1725) translate(-0.287 0.025)"/>
+        </g>
+    </g>
+</svg>

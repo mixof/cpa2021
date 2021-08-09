@@ -1,0 +1,488 @@
+.forums-archive
+  .forums_head
+    .forum_short_info
+      font-size: 1rem
+  .forums-container
+    //padding: 32px 50px
+    border-radius: 24px
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.16)
+    background-color: $cpa_white
+    .forums_head
+      padding: 30px
+      min-height: auto
+      padding-left: 45px
+      padding-right: 30px
+      .forum_data
+        padding-right: 15px
+    .row:nth-child(even)
+      background-color: $cpa_grey
+    &>.row
+      margin-left: 0
+      margin-right: 0
+      min-height: 125px
+      margin-bottom: 0!important
+      .forum_row
+        align-items: center
+        justify-content: center
+        height: 100%
+        padding-left: 30px
+        padding-right: 30px
+        padding-top: 15px
+        padding-bottom: 15px
+        .forum_short_info
+          text-align: left
+          padding-right: 0
+    .forum_row
+      border: none!important
+
+.forums_head
+  .forum_short_info
+    font-family: 'Poppins', sans-serif
+    font-size: 1.25rem
+    font-weight: bold
+    font-stretch: normal
+    font-style: normal
+    line-height: normal
+    letter-spacing: normal
+    text-align: left
+    color: $cpa_blue
+    .col-4
+      padding-left: 0
+.forum_short_info
+    font-family: 'Poppins', sans-serif
+    font-size: 1.25rem
+    font-weight: bold
+    font-stretch: normal
+    font-style: normal
+    line-height: normal
+    letter-spacing: normal
+    text-align: left
+    color: $cpa_blue
+    text-align: center
+
+.forum_data
+  padding-left: 40px
+  .forum_title
+    font-family: 'Poppins', sans-serif
+    font-size: 1rem
+    font-weight: bold
+    font-stretch: normal
+    font-style: normal
+    line-height: normal
+    letter-spacing: normal
+    text-align: left
+    color: $cpa_blue
+    text-align: left
+    a
+      color: $cpa_blue
+  .latest_topic
+    text-align: left
+    strong
+      color: $cpa_gold!important
+    a
+      font-family: 'Poppins', sans-serif
+      font-size: 13px!important
+      font-weight: 500
+      font-stretch: normal
+      font-style: normal
+      line-height: normal
+      letter-spacing: normal
+      text-align: left
+      color: $cpa_grey_text!important
+
+.forums-control
+  display: flex
+  align-items: center
+  justify-content: center
+  padding-top: 30px
+  padding-bottom: 4.56rem
+.forum-sec
+  background-color: $cpa_grey
+  margin-top: 4.56rem
+  .section-title
+    padding-bottom: 54px
+
+
+.forum_row
+  border-bottom: 2px solid #c7c7c7!important
+
+
+.fmwp-forum-wrapper
+  .fmwp-forum-content
+    background-color: $cpa_white
+    border-radius: 24px
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.16)
+    .fmwp-topics-wrapper-heading
+      padding: 30px!important
+      border: none!important
+      .fmwp-topic-head-line
+        font-family: 'Poppins',sans-serif!important
+        font-size: 13px!important
+        font-weight: bold!important
+        font-stretch: normal!important
+        font-style: normal!important
+        letter-spacing: normal!important
+        text-align: left!important
+        color: $cpa_blue!important
+    .fmwp-topics-wrapper
+      .fmwp-topic-row
+        padding-left: 30px
+        padding-right: 30px
+        min-height: 100px
+        border: none
+        &:nth-child(odd)
+          background-color: $cpa_grey!important
+        .fmwp-topic-tag
+          color: $cpa_gold!important
+          font-family: 'Poppins',sans-serif!important
+        .fmwp-forum-actions-dropdown, .fmwp-forum-statistics-data, .fmwp-topic-statistics-section, .fmwp-topic-actions-dropdown
+          font-family: 'Poppins',sans-serif!important
+          font-size: 16px!important
+          font-weight: 500!important
+          font-stretch: normal!important
+          font-style: normal!important
+          letter-spacing: normal!important
+          text-align: left!important
+          color: $cpa_black!important
+
+        .fmwp-topic-title
+          font-family: 'Poppins',sans-serif!important
+          font-size: 13px!important
+          font-weight: bold!important
+          font-stretch: normal!important
+          font-style: normal!important
+          line-height: 1.31!important
+          letter-spacing: normal!important
+          text-align: left!important
+          color: $cpa_blue!important
+
+
+
+  .fmwp-forum-head
+    .fmwp-forum-info
+      justify-content: center
+      align-items: center
+      align-self: center
+    .fmwp-forum-nav-bar
+      border: none!important
+
+
+      .fmwp-forum-search-bar
+        .fmwp-search-topic
+          background-color: $cpa_blue!important
+          color: $cpa_white!important
+          font-family: 'Spartan',sans-serif!important
+          font-size: 12px!important
+          font-weight: bold!important
+          font-stretch: normal
+          font-style: normal
+          line-height: normal
+          letter-spacing: normal
+          text-align: center!important
+          min-width: 97px
+          min-height: 37px
+          padding: 0!important
+          &:hover
+            background-color: #1f4978!important
+
+        .input-text, input[type=text], input[type=email], input[type=url], input[type=password], input[type=search], textarea
+          border-radius: 8px!important
+          border: none!important
+          color: #041f3d!important
+          font-family: 'Spartan',sans-serif!important
+          font-size: 10px!important
+          font-weight: 500!important
+          text-align: center
+          min-height: 37px
+      .fmwp-forum-sort-wrapper
+        label
+          span
+            font-family: 'Spartan',sans-serif!important
+            font-size: 12px!important
+            font-weight: bold!important
+            font-stretch: normal
+            font-style: normal
+            line-height: normal
+            letter-spacing: normal
+            text-align: center
+            color: #041f3d!important
+        .fmwp-forum-sort
+          border-radius: 8px!important
+          min-height: 30px!important
+          font-family: 'Spartan',sans-serif!important
+          background-color: #041f3d!important
+          color: white!important
+          min-width: 163px
+          font-size: 10px!important
+          outline: none!important
+          font-weight: 500!important
+          display: flex
+          align-items: center
+          justify-content: center!important
+          padding: 10px
+
+      input[type=button].fmwp-create-topic,input[type=button].fmwp-login-to-action
+        background-color: $cpa_blue!important
+        color: $cpa_white!important
+        font-family: 'Spartan',sans-serif!important
+        font-size: 12px!important
+        font-weight: bold!important
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        text-align: center!important
+        min-width: 97px
+        min-height: 37px
+        &:hover
+          background-color: #1f4978!important
+
+
+
+.fmwp-forum-head .fmwp-forum-nav-bar .fmwp-forum-nav-bar-line .fmwp-forum-subscribe i
+  color: $cpa_blue!important
+
+.fmwp-forum-content .fmwp-topics-wrapper .fmwp-topic-row .fmwp-topic-row-lines .fmwp-topic-row-line.fmwp-topic-statistics-data .fmwp-topic-statistics-section
+  align-items: center!important
+
+.fmwp-forum-footer
+  input[type=button].fmwp-create-topic,input[type=button].fmwp-login-to-action
+    background-color: $cpa_blue!important
+    color: $cpa_white!important
+    font-family: 'Spartan',sans-serif!important
+    font-size: 12px!important
+    font-weight: bold!important
+    font-stretch: normal
+    font-style: normal
+    line-height: normal
+    letter-spacing: normal
+    text-align: center!important
+    min-width: 97px
+    min-height: 37px
+    &:hover
+      background-color: #1f4978!important
+
+
+.single-fmwp_topic
+  .page-wrap
+    padding-bottom: 200px!important
+    background-color: $cpa_white!important
+    .fmwp-reply-subdata, .fmwp-topic-subdata, .fmwp-show-child-replies
+      font-family: 'Spartan',sans-serif!important
+      font-size: 12px!important
+      font-weight: bold
+      color: $cpa_gold!important
+    .fmwp-topic-top-actions-dropdown, .fmwp-reply-top-actions-dropdown
+      font-family: 'Spartan',sans-serif!important
+      font-size: 12px!important
+      font-weight: bold
+      color: $cpa_blue!important
+
+    .fmwp-topic-main-wrapper .fmwp-topic-wrapper .fmwp-reply-row .fmwp-reply-base .fmwp-reply-data .fmwp-reply-top .fmwp-reply-head .fmwp-reply-subdata a
+      font-family: 'Poppins',sans-serif!important
+      font-size: 13px
+      font-weight: normal!important
+      font-stretch: normal
+      color: $cpa_blue
+  .fmwp-topic-main-wrapper
+    input[type=button].fmwp-write-reply, input[type=button].fmwp-login-to-action
+      background-color: $cpa_blue!important
+      color: $cpa_white!important
+      font-family: 'Spartan',sans-serif!important
+      font-size: 12px!important
+      font-weight: bold!important
+      font-stretch: normal
+      font-style: normal
+      line-height: normal
+      letter-spacing: normal
+      text-align: center!important
+      min-width: 97px
+      min-height: 37px
+      border-radius: 8px
+      &:hover
+        background-color: #1f4978!important
+    .fmwp-topic-wrapper
+      border-top: solid 2px #c7c7c7
+      .fmwp-reply-row
+        border-bottom: solid 2px #c7c7c7
+        .fmwp-reply-base
+          .fmwp-reply-bottom
+            .fmwp-reply-right-panel
+              font-family: 'Spartan',sans-serif!important
+              font-weight: bold!important
+              font-size: 12px!important
+              color: $cpa_blue!important
+              span.fmwp-reply-action-link
+                font-size: 12px!important
+                font-weight: bold
+                color: $cpa_blue!important
+
+          .fmwp-reply-content
+            font-family: 'Poppins',sans-serif!important
+            font-size: 13px
+            font-weight: 500!important
+            font-stretch: normal
+            color: $cpa_grey_text
+            padding-top: 10px
+
+
+    .fmwp-topic-content
+      .fmwp-topic-base
+        border-top: solid 2px #c7c7c7
+        .fmwp-topic-base-footer
+          .fmwp-topic-right-panel
+            span.fmwp-topic-action
+              font-size: 12px!important
+              font-weight: bold
+              color: $cpa_blue!important
+            .fmwp-topic-votes-wrapper
+              span
+                .counter
+                  font-family: 'Spartan',sans-serif!important
+                  font-size: 12px!important
+                  font-weight: bold
+                  color: $cpa_blue!important
+
+            .fmwp-topic-likes-wrapper
+              font-family: 'Spartan',sans-serif!important
+              font-size: 12px!important
+              font-weight: bold
+              color: $cpa_blue!important
+            span.fmwp-topic-sort-wrapper
+              label
+                font-family: 'Spartan',sans-serif!important
+                font-size: 12px!important
+                font-weight: bold
+                color: $cpa_blue!important
+              .fmwp-topic-sort
+                border-radius: 8px!important
+                min-height: 30px!important
+                font-family: 'Spartan',sans-serif!important
+                background-color: #041f3d!important
+                color: white!important
+                min-width: 163px
+                font-size: 10px!important
+                outline: none!important
+                font-weight: 500!important
+                display: flex
+                align-items: center
+                justify-content: center!important
+                padding: 10px
+
+        .fmwp-topic-base-header
+          .fmwp-topic-data
+            .fmwp-topic-data-top
+              .fmwp-topic-data-head
+                .fmwp-topic-subdata
+                  font-family: 'Poppins',sans-serif!important
+                  font-size: 13px
+                  font-weight: normal!important
+                  font-stretch: normal
+                  color: $cpa_blue!important
+
+            .fmwp-topic-data-content
+              font-family: 'Poppins',sans-serif!important
+              font-size: 13px
+              font-weight: 500!important
+              font-stretch: normal
+              color: $cpa_grey_text
+              padding-top: 10px
+
+            .fmwp-topic-data-top
+              .fmwp-topic-data-head
+                .fmwp-topic-data-head-section
+                  a
+                    font-family: 'Poppins',sans-serif!important
+                    font-size: 16px
+                    font-weight: bold!important
+                    font-stretch: normal
+                    color: $cpa_blue
+    .fmwp-topic-wrapper .fmwp-reply-row .fmwp-reply-base .fmwp-reply-data .fmwp-reply-top .fmwp-reply-head .fmwp-reply-head-data a, .fmwp-topic-wrapper .fmwp-reply-row .fmwp-reply-base .fmwp-reply-data .fmwp-reply-top .fmwp-reply-head .fmwp-reply-head-data a:focus, .fmwp-topic-main-wrapper .fmwp-topic-wrapper .fmwp-reply-row .fmwp-reply-base .fmwp-reply-data .fmwp-reply-top .fmwp-reply-head .fmwp-reply-head-data a
+      font-family: 'Poppins',sans-serif!important
+      font-size: 16px
+      font-weight: bold!important
+      font-stretch: normal
+      color: $cpa_blue
+
+
+    .fmwp-topic-head
+      h1
+        font-family: 'Poppins',sans-serif!important
+        font-size: 26px
+        font-weight: bold!important
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        text-align: center!important
+        color: $cpa_gold
+        padding-bottom: 30px
+      .fmwp-topic-info
+        .fmwp-topic-stats
+          font-family: 'Poppins',sans-serif!important
+          font-size: 16px
+          font-weight: normal!important
+          font-stretch: normal
+          font-style: normal
+          line-height: normal
+          letter-spacing: normal
+          color: $cpa_blue
+          border: none
+        .fmwp-topic-forum-link
+          font-family: 'Poppins',sans-serif!important
+          font-size: 16px
+          font-weight: 600!important
+          font-stretch: normal
+          font-style: normal
+          line-height: normal
+          letter-spacing: normal
+          color: $cpa_blue
+          border: none
+
+
+.fmwp_forum-template-default .tipsy
+  display: none!important
+
+body
+  input[type="button"].fmwp-reply-popup-discard,input[type="button"].fmwp-reply-popup-submit
+    background-color: $cpa_blue!important
+    color: $cpa_white!important
+    font-family: 'Spartan',sans-serif!important
+    font-size: 12px!important
+    font-weight: bold!important
+    font-stretch: normal
+    font-style: normal
+    line-height: normal
+    letter-spacing: normal
+    text-align: center!important
+    min-width: 97px
+    min-height: 37px
+    border-radius: 8px
+  .fmwp-post-popup-wrapper
+    .fmwp-post-popup-toolbar
+      .fmwp-post-popup-action-fullsize
+        border: 1px solid $cpa_gold!important
+        background-color: $cpa_gold!important
+        &:hover
+          border: 1px solid $cpa_gold!important
+          background-color: $cpa_gold!important
+
+
+#fmwp-reply-popup-wrapper
+  form
+    #fmwp-reply-popup-head
+      #fmwp-reply-popup-quote
+        font-family: 'Poppins',sans-serif!important
+        font-size: 16px!important
+        font-weight: bold!important
+        color: $cpa_blue!important
+
+
+
+
+
+
+
+
+
+

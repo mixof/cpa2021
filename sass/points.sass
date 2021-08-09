@@ -1,0 +1,101 @@
+.points-grid
+  margin: 0 75px
+  table
+    font-family: 'Poppins',sans-serif
+    font-size: 1.125rem
+    width: 100%
+    border-radius: 30px
+    margin-bottom: 70px
+    th
+      text-align: center
+      color: $cpa_white
+      background-color: $cpa_gold
+      font-size: 1.5rem
+      font-weight: bold
+      padding: 30px 0
+      width: 50%
+      &:first-child
+        border-top-left-radius: 30px
+      &:last-child
+        border-top-right-radius: 30px
+        border-left: 2px solid $cpa_white
+
+    td
+      padding: 30px 70px
+      width: 50%
+
+    tr
+      &:nth-child(even)
+        background-color: $cpa_white
+        td:last-child
+          border-left: 2px solid $cpa_grey
+        td:first-child
+          border-right: 2px solid $cpa_grey
+
+      &:nth-child(odd)
+        background-color: #fff8ec
+      &:last-child
+        td:first-child
+          border-bottom-left-radius: 30px
+        td:last-child
+          border-bottom-right-radius: 30px
+      td:last-child
+        border-left: 2px solid $cpa_white
+      td:first-child
+        border-right: 2px solid $cpa_white
+
+
+  .table-text
+    font-family: 'Poppins',sans-serif
+    font-size: 1.125rem
+    font-weight: 600
+    color: $cpa_blue
+  .table-subtext
+    font-family: 'Poppins',sans-serif
+    font-size: 1.125rem
+    font-weight: normal
+    color: $cpa_grey_text
+    margin-bottom: 0
+
+.badge-wrap
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  align-items: center
+  .badge-image
+    img
+      width: 80px
+      height: 80px
+      min-width: 80px
+  .badge-info
+    padding-left: 15px
+
+.points-grid.badges
+  table
+    tr
+      &:first-child
+        td
+          &:first-child
+            border-top-left-radius: 30px
+          &:last-child
+            border-top-right-radius: 30px
+      &:nth-child(odd)
+        background-color: $cpa_white
+        td:last-child
+          border-left: 2px solid $cpa_grey
+        td:first-child
+          border-right: 2px solid $cpa_grey
+
+      &:nth-child(even)
+        background-color: #fff8ec
+        td:last-child
+          border-left: 2px solid $cpa_white
+        td:first-child
+          border-right: 2px solid $cpa_white
+
+
+
+
+
+
+

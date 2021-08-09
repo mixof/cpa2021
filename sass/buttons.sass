@@ -1,0 +1,213 @@
+.hero-button
+  font-family: 'Spartan', sans-serif!important
+  font-weight: bold
+  font-size: 1.25rem
+  color: $cpa_white
+  text-align: center
+  background-color: $cpa_blue
+  border-radius: 0.43rem
+  text-decoration: none
+  padding: 14.4px 49px 14.4px
+  width: 23rem
+  display: inline-flex
+  max-height: 3.18rem
+  justify-content: center
+  align-items: center
+  max-width: 23rem
+
+.yellow-link
+  text-transform: uppercase
+  color: $cpa_gold
+  font-family: 'Poppins', sans-serif
+  font-size: 1rem
+  font-weight: bold
+  text-align: center
+  position: relative
+  &:hover
+    color: $cpa_gold
+
+
+.login-btn,[class*=header] .btn-login
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 10px 21px 11px 23px
+  border-radius: 4px
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.43)
+  background-color: $cpa_grey
+  color: $cpa_blue
+  text-decoration: none
+  font-family: 'Poppins', sans-serif
+  font-size: 15px
+  font-weight: 500
+  &:hover
+    color: $cpa_blue
+    background-color: #f5f5f5bf
+
+.cpa-button
+  transition: all .3s
+  overflow: hidden
+  position: relative
+  text-decoration: none!important
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 200%
+    height: 0
+    transform: translate3d(-50%, -50%, 0) rotate(45deg)
+    transition: all .35s
+  &:hover
+    &:before
+      height: 600%
+  span,a
+    position: relative
+    z-index: 1
+    color: $cpa_white
+  a
+    text-decoration: none
+
+.blue-btn
+  &:before
+    background-color: $cpa_hover_blue
+  &:hover
+    color: $cpa_white
+
+.blue-btn-small
+  padding: 10px 11px 11px
+  border-radius: 4px
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.43)
+  background-color: $cpa_blue
+  color: $cpa_white
+  text-decoration: none
+  max-height: 37px
+  display: flex
+  justify-content: center
+  align-items: center
+  &:hover
+    color: $cpa_white
+  &:before
+    background-color: $cpa_hover_blue
+  span
+    font-family: 'Spartan', sans-serif
+    font-size: 12px
+    font-weight: bold
+
+
+.grey-btn
+  span,a
+    color: $cpa_blue
+  &:before
+    background-color: $cpa_grey_hover
+  &:hover
+    color: $cpa_blue
+  a
+    text-decoration: none
+
+
+
+
+
+
+.register-btn
+  padding: 10px 11px 11px
+  border-radius: 4px
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.43)
+  background-color: $cpa_blue
+  color: $cpa_white
+  text-decoration: none
+  font-family: 'Poppins', sans-serif
+  font-size: 15px
+  font-weight: 500
+  &:hover
+    color: $cpa_white
+    background-color: $cpa_hover_blue
+
+.search-form
+  input[type=search].search-field
+    border-radius: 40px
+    max-width: 184px
+    outline: none
+    text-transform: uppercase
+    //padding: 11px 68px 12px
+    background-color: $cpa_blue
+    color: $cpa_white
+    box-shadow: none
+    border: none
+    font-weight: 500
+    font-size: 12px
+    height: 40px
+    text-align: center
+    padding-left: 32px
+    margin: 0
+    &::placeholder
+      color: $cpa_white
+    &:hover,&:focus,&:active
+      outline: none
+      box-shadow: none
+      border: none
+      background-color: $cpa_blue
+      color: $cpa_white
+
+.search-btn
+  position: absolute
+  display: flex
+  justify-content: center
+  align-items: center
+  left: 12px
+  top: 12px
+
+.banner-button
+  text-decoration: none
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 14.4px 12.9px 9.4px 14px
+  border-radius: 7px
+  min-width: 273px
+  &:before
+    background-color: #ffb54894
+
+
+.yellow-btn
+  background-color: $cpa_white
+  font-family: 'Spartan', sans-serif
+  font-size: 1.25rem
+  font-weight: bold
+  span
+    color: $cpa_gold
+    transition: all .3s
+  &:hover
+    color: $cpa_white
+    transition: all .3s
+    span
+      color: $cpa_white
+      transition: all .3s
+
+.cpa-preview
+  border-radius: 5px
+  border: solid 1px $cpa_blue
+  background-color: transparent
+  padding: 10px 11px 11px
+  display: flex
+  justify-content: center
+  align-items: center
+  text-decoration: none
+  transition: all .35s
+  &:hover
+    text-decoration: none
+    span
+      color: $cpa_white
+    background-color: $cpa_blue
+
+  span
+    color: $cpa_blue
+    font-family: 'Spartan',sans-serif
+    font-size: 0.7rem
+    font-weight: bold
+
+
+
+
